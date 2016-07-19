@@ -235,7 +235,6 @@ def create_model_v5(img_channels, img_rows, img_cols, nb_classes, wr=0.001):
     model.add(Dense(nb_classes))
     model.add(Activation('softmax'))
 
-    # let's train the model using SGD + momentum (how original).
     sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
     model.compile(loss='categorical_crossentropy',
               optimizer=sgd,
@@ -267,8 +266,8 @@ else:
         samplewise_std_normalization=False,  # divide each input by its std
         zca_whitening=False,  # apply ZCA whitening
         rotation_range=0,  # randomly rotate images in the range (degrees, 0 to 180)
-        width_shift_range=0.2,  # randomly shift images horizontally (fraction of total width)
-        height_shift_range=0.2,  # randomly shift images vertically (fraction of total height)
+        width_shift_range=0.1,  # randomly shift images horizontally (fraction of total width)
+        height_shift_range=0.1,  # randomly shift images vertically (fraction of total height)
         horizontal_flip=False,  # randomly flip images, changed to False
         vertical_flip=False)  # randomly flip images
 
