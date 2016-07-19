@@ -9,6 +9,7 @@ My attempts for this challenge.
    Achieved Loss 1.57377
 2. Used CNN, structure followed Keras example, a simple deep CNN on the CIFAR10 small images dataset.
    https://github.com/fchollet/keras/blob/master/examples/cifar10_cnn.py
+
    Trained on 48 * 64 Grayscale images
    1. Added weight regularizer
       Achieved Loss 1.12804
