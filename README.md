@@ -11,8 +11,10 @@ My attempts for this challenge.
    https://github.com/fchollet/keras/blob/master/examples/cifar10_cnn.py
 
    Trained on 48 * 64 Grayscale images
-   1. Added weight regularizer
+   1. Added and adjusted weight regularizer.
+   
       Achieved Loss 1.12804
-   2. Adjusted data agumentation parameters
+   2. Adjusted data agumentation parameters.
+   
       Achieved Loss 1.07232
    
