@@ -16,5 +16,5 @@ My attempts for this challenge.
       Achieved Loss 1.12804
    2. Adjusted data agumentation parameters.
    
-      Achieved Loss 1.07232
+      Achieved Loss 0.89433
    
