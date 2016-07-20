@@ -26,7 +26,7 @@ np.random.seed(2016)
 
 batch_size = 32
 nb_classes = 10
-nb_epoch = 12
+nb_epoch = 40
 data_augmentation = True
 # The percentage of training data leave out as validation set
 test_size = 0.2
