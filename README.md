@@ -14,7 +14,12 @@ My attempts for this challenge.
    1. Added and adjusted weight regularizer.
    
       Achieved Loss 1.12804
-   2. Adjusted data agumentation parameters.
+   2. Adjusted data augmentation parameters.
    
       Achieved Loss 0.89433
+
+   Trained on 72 * 96 Grayscale images
+   1. Adjusted data augmentation parameters.
+      
+      Achieved Loss 0.82381
    
