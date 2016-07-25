@@ -19,6 +19,7 @@ My attempts for this challenge.
       Achieved Loss 0.89433
 
    Trained on 72 * 96 Grayscale images
+   
    1. Adjusted data augmentation parameters.
       
       Achieved Loss 0.82381
