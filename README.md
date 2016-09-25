@@ -5,13 +5,13 @@ State Farm hosted this Kaggle challenge, hoping to test whether dashboard camera
 * c0: safe driving
 * c1: texting - right
 * c2: talking on the phone - right
-c3: texting - left
-c4: talking on the phone - left
-c5: operating the radio
-c6: drinking
-c7: reaching behind
-c8: hair and makeup
-c9: talking to passenger
+* c3: texting - left
+* c4: talking on the phone - left
+* c5: operating the radio
+* c6: drinking
+* c7: reaching behind
+* c8: hair and makeup
+* c9: talking to passenger
 
 
 My attempts for this challenge. 
