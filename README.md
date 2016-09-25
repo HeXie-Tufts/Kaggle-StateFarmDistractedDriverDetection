@@ -1,6 +1,5 @@
 # Kaggle-StateFarmDistractedDriverDetection
-https://www.kaggle.com/c/state-farm-distracted-driver-detection
-State Farm hosted this Kaggle challenge, hoping to test whether dashboard cameras can automatically detect drivers engaging in distracted behaviors. Dataset consists of 22424 2D dashboard camera images, categorized into 10 classes:
+State Farm hosted this Kaggle challenge (https://www.kaggle.com/c/state-farm-distracted-driver-detection), hoping to test whether dashboard cameras can automatically detect drivers engaging in distracted behaviors. Dataset consists of 22424 2D dashboard camera images, categorized into 10 classes:
 
 * c0: safe driving
 * c1: texting - right
@@ -13,10 +12,11 @@ State Farm hosted this Kaggle challenge, hoping to test whether dashboard camera
 * c8: hair and makeup
 * c9: talking to passenger
 
+Even though my ability to test out complex models on large size images are limited by only having a MacBook Air, I am still glad that I took part in this competition and learned a lot, such as the use of Keras library,  convolutional neural networks, the pros and cons of various activation function et al. 
 
-My attempts for this challenge. 
+Here are a summary of my progress through this challenge. (Unsuccessful ideas and experiments are not documented). 
 
-1. Used CNN, structure followed from ZFTurbo's keras sample script on 
+1. Used Convolutional Neural Network (CNN), structure followed from ZFTurbo's keras sample script on 
    https://www.kaggle.com/zfturbo/state-farm-distracted-driver-detection/keras-sample/run/202460
 
    Trained on 48 * 64 Grayscale images
