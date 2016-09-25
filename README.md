@@ -22,5 +22,5 @@ My attempts for this challenge.
    
    1. Adjusted data augmentation parameters.
       
-      Achieved Loss 0.82381
+      Achieved Loss 0.79676
    
