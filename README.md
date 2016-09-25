@@ -1,5 +1,6 @@
 # Kaggle-StateFarmDistractedDriverDetection
-State Farm hosted this Kaggle challenge, hoping to test whether dashboard cameras can automatically detect drivers engaging in distracted behaviors. Dataset consists of 22424 2D dashboard camera images, categorized into 10 classes:
+https://www.kaggle.com/c/state-farm-distracted-driver-detection
+State Farm hosted this Kaggle challenge, hoping to test whether dashboard cameras can automatically detect drivers engaging in distracted behaviors. Dataset consists of 22424 2D dashboard camera images, categorized into 10 classes:\n
 c0: safe driving
 c1: texting - right
 c2: talking on the phone - right
