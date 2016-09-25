@@ -32,7 +32,7 @@ data_augmentation = True
 test_size = 0.2
 
 # input image dimensions
-img_rows, img_cols = 48, 64
+img_rows, img_cols = 72, 96
 # input image is grayscale. If RGB, img_channels = 3
 img_channels = 1
 
@@ -266,8 +266,9 @@ else:
         samplewise_std_normalization=False,  # divide each input by its std
         zca_whitening=False,  # apply ZCA whitening
         rotation_range=0,  # randomly rotate images in the range (degrees, 0 to 180)
-        width_shift_range=0.1,  # randomly shift images horizontally (fraction of total width)
-        height_shift_range=0.1,  # randomly shift images vertically (fraction of total height)
+        zoom_range = 0.1,
+        width_shift_range=0.2,  # randomly shift images horizontally (fraction of total width)
+        height_shift_range=0.2,  # randomly shift images vertically (fraction of total height)
         horizontal_flip=False,  # randomly flip images, changed to False
         vertical_flip=False)  # randomly flip images
 
